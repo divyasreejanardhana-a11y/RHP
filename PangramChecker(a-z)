@@ -5,14 +5,10 @@ int main()
 {
     string s;
     cin >> s;
-
     int flag = 0;
-
-    for(char ch : s)
-    {
+    for(char ch : s){
         flag = flag | (1 << (ch - 'a'));
     }
-
     string result = (flag == (1 << 26) - 1) ? "Yes" : "No";
     cout << result;
 }
