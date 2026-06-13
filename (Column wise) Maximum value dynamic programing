@@ -1,6 +1,6 @@
 package skillrack;
 import java.util.*;
-public class dynamic_matrix_column {
+public class Main{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
