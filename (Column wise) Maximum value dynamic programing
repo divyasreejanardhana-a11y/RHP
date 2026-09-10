@@ -1,4 +1,3 @@
-package skillrack;
 import java.util.*;
 public class Main{
 
