@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Main
 {
     public static void main(String[] args)
@@ -14,7 +13,6 @@ class Main
                 grid[row][col] = sc.nextInt();
             }
         }
-
         int targetRow = sc.nextInt(), targetCol = sc.nextInt();
         final int diff[][] = {{-1,-1},{-1,0},{-1,1},{0,-1},{0,1},{1,-1},{1,0},{1,1}};
         long sum = 0;
@@ -26,7 +24,6 @@ class Main
                 sum += grid[adjRow][adjCol];
             }
         }
-
         System.out.println(sum);
     }
 }
